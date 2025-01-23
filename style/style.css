@@ -300,6 +300,7 @@ header,main,.main-last-contents{
 
 .main-last-contents{
     color: white;
+    background-color: #01ACFD;
     display: flex;
     justify-content: space-between;
     padding: 20px;
