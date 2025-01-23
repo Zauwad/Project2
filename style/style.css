@@ -285,8 +285,12 @@ header,main,.main-last-contents{
     font-size: 15px;
 }
 
-#main-third-box-date-2,#main-third-box-date-3,#main-third-box-date-4,#main-third-box-date-5{
+#main-third-box-date-2,#main-third-box-date-4,#main-third-box-date-5{
     background-color: #95B226;
+}
+
+#main-third-box-date-3{
+    background-color: #5D58F0;
 }
 
 .main-third-content-2{
@@ -348,6 +352,15 @@ footer{
         width: 90%;
         margin: 0 auto;
     }
+    .main-last-contents{  
+        /* background-color: none;  */
+        width: 85%;
+    }
+    
+    footer{
+        width: auto;
+    }
+    
     /* header styles */
     .header-content-small{
         display: flex;
@@ -403,10 +416,31 @@ footer{
     }
     .main-third-content-2{
         grid-template-columns: repeat(2,1fr);
-        width: 20rem;
+        /* width: 20rem; */
         height: auto;
     }
+
+    
+
     #main-third-box-2,#main-third-box-3,#main-third-box-4,#main-third-box-5{
+        width: 100%;
+        height: auto;
+    }
+    
+    .main-third-box-date{
+        width: 40%;
+        height: 5%;
+    }
+
+    .main-third-box-img{
+        width: 110%;
+    }
+
+    .main-third-box-actdate{
+        font-size: 15px;
+    }
+
+    .main-third-box-texts{
         width: 100%;
     }
 
@@ -421,5 +455,9 @@ footer{
         /* text-align: left; */
         width: 30%;
     }
+    .main-last-texts > p{
+        width: 350%;
+    }
+    
 }
 
