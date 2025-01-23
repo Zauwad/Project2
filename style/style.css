@@ -163,24 +163,99 @@ header,main,footer{
     background-color: orange;
 }
 
+
 /* main third */
-.main-third-contents{
-    background: linear-gradient(to top, #FFF4DC, #ffffff);
-}
 
 .main-third-heading{
-    font-size: 46px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 50px;
 }
 
-.main-third-box-1{
+#main-third-button{
+    background-color:black;  
+}
+
+.main-third-button-div{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.main-third-contents{
+    background: linear-gradient(to top, #FFF4DC, #ffffff);
+    display: flex;
+    /* width: 100%; */
+    gap: 20px;
+    align-items: center;
+}
+
+
+.main-third-box{
     width: 540px;
-    height: 630px;
+    height: 650px;
     background-color: white;
+    border: none;
+    border-radius: 16px;
+}
+.main-third-box-img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px ;
+}
+
+.main-third-box-texts{
+    margin-top: 58px;
+    padding: 18px;
+}
+
+.main-third-box-heading{
+    font-size: 24px;
+    font-weight: 700px;
 }
 
 
+.main-third-box-description{
+    margin-top: 47px;
+    font-size: 15px;
+}
 
+.main-third-box-date{
+    background-color: aqua;
+    border-radius: 47px;
+    color: white;
+    height: 47px;
+    width: 174px;
+    text-align: center;
+    margin-top: -30px;
+    margin-right: 38px;
+    position: absolute;
+}
 
+#main-third-box-2,#main-third-box-3,#main-third-box-4,#main-third-box-5{
+    width: 290px;
+    height: 320px;
+}
+
+#main-third-box-texts-2,#main-third-box-texts-3{
+    /* font-size: 15px; */
+    padding: 10 px;
+    margin-top: 0px;
+}
+
+.main-third-box-heading-2{
+    font-size: 15px;
+}
+
+#main-third-box-date-2,#main-third-box-date-3,#main-third-box-date-4,#main-third-box-date-5{
+    background-color: #95B226;
+}
+
+.main-third-content-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
 
 
 @media screen and (max-width:576px) {
@@ -234,5 +309,19 @@ header,main,footer{
         display: flex;
         flex-direction: column;
         gap: 12px;
+    }
+
+    /* main third */
+
+    .main-third-content-1{
+        display: none;
+    }
+    .main-third-content-2{
+        grid-template-columns: repeat(2,1fr);
+        width: 20rem;
+        height: auto;
+    }
+    #main-third-box-2,#main-third-box-3,#main-third-box-4,#main-third-box-5{
+        width: 100%;
     }
 }
