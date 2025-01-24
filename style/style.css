@@ -3,7 +3,7 @@
 
 
 body{
-    background-image: url(../assets/bg.png);
+    background-image: url(../assets/bg.png),linear-gradient(to top, #FFF4DC, #ffffff);
 }
 
 header,main,.main-last-contents{
@@ -226,9 +226,9 @@ header,main,.main-last-contents{
     /* align-items: center; */
 }
 
-.main-third-outer-section{
+/* .main-third-outer-section{
     background: linear-gradient(to top, #FFF4DC, #ffffff);
-}
+} */
 
 .main-third-box{
     width: 540px;
